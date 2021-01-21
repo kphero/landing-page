@@ -70,6 +70,7 @@ body {
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    align-items: center;
     color: black;
     text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
     
@@ -78,6 +79,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     border: 2px white;
     background-image: radial-gradient(white, skyblue);
     opacity: 80%;
@@ -90,6 +92,7 @@ body {
 #cq {
     display: flex;
     flex-direction: column;
+    align-items: center;
     border: 2px white;
     background-image: radial-gradient(black, rgb(102, 52, 102));
     opacity: 80%;
@@ -102,6 +105,7 @@ body {
 #rev {
     display: flex;
     flex-direction: column;
+    align-items: center;
     border: 2px white;
     background-image: linear-gradient(rgb(102, 52, 102), skyblue);
     opacity: 80%;
@@ -114,8 +118,6 @@ body {
 #formdiv {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     background-color:rgba(255, 255, 255, 0.445);
     margin: 10px auto auto auto;
@@ -124,12 +126,8 @@ body {
     border: 2px solid black;
     border-color: black;
     padding: 5px;
-    height: 100px;
+    height: 50%;
     color: black;
-}
-#form {
-    display: flex;
-    flex-direction: column;
 }
 #ytvid {
     display: flex;
@@ -144,7 +142,7 @@ body {
     height: auto;
     margin: 10px auto 10px auto;
     padding: 10px;
-
+    align-content: center;
     background-color:rgba(255, 255, 255, 0.445);
     padding: 10px;
     border: 5px solid black;
@@ -153,4 +151,8 @@ body {
     width: 100px;
     height: 50px;
     background-color: rgb(167, 119, 47);
+}
+#pricing p {
+    font-size: 20px;
+    font-weight: 600;
 }
